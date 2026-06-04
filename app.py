@@ -9,7 +9,7 @@ import joblib
 model = joblib.load('model.joblib')
 
 ### app title
-st.title("Crop Disease Detection")
+st.title("Crop Disease Predictor")
 
 ### load the dataset
 data = pd.read_csv('dataset.csv')
